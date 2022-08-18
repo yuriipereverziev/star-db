@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/yuriipereverziev/star-db",
   "name": "star-db",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +17,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint . --max-warnings=0", "prepare": "husky install"
+    "lint": "eslint . --max-warnings=0",
+    "prepare": "husky install",
+    "fix": "eslint --fix --ext .js,.jsx .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +48,7 @@
     "@babel/plugin-transform-react-jsx": "^7.18.10",
     "eslint": "^8.22.0",
     "eslint-config-airbnb": "^19.0.4",
+    "gh-pages": "^4.0.0",
     "husky": "^8.0.1"
   },
   "babel": {
