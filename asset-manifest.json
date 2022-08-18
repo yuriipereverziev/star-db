@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/yuriipereverziev/star-db/static/css/main.453ceb37.css",
-    "main.js": "/yuriipereverziev/star-db/static/js/main.3d71ac77.js",
-    "index.html": "/yuriipereverziev/star-db/index.html",
-    "main.453ceb37.css.map": "/yuriipereverziev/star-db/static/css/main.453ceb37.css.map",
-    "main.3d71ac77.js.map": "/yuriipereverziev/star-db/static/js/main.3d71ac77.js.map"
+    "main.css": "/star-db/static/css/main.453ceb37.css",
+    "main.js": "/star-db/static/js/main.144d404a.js",
+    "index.html": "/star-db/index.html",
+    "main.453ceb37.css.map": "/star-db/static/css/main.453ceb37.css.map",
+    "main.144d404a.js.map": "/star-db/static/js/main.144d404a.js.map"
   },
   "entrypoints": [
     "static/css/main.453ceb37.css",
-    "static/js/main.3d71ac77.js"
+    "static/js/main.144d404a.js"
   ]
 }
