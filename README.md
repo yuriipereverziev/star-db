@@ -1,4 +1,4 @@
-# [StarDB](https://github.com/yuriipereverziev/star-db)
+# [StarDB](https://yuriipereverziev.github.io/star-db)
 
 ### Доступные команды
 
