@@ -20,14 +20,12 @@
     "lint": "eslint . --max-warnings=0",
     "prepare": "husky install",
     "fix": "eslint --fix --ext .js,.jsx .",
-
-    "prod": "echo \"Add your build command here\"",
-    "postinstall": "node ./node_modules/husky/lib/installer/bin install",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run prod"
+      "pre-push": "npm run deploy"
     }
   },
   "eslintConfig": {
