@@ -37,7 +37,9 @@ export default class RandomPlanet extends Component {
     const {
       id, name, population, rotationPeriod, diameter 
     } = this.state;
+    alert('test');
     return (
+
       <div className="random-planet jumbotron rounded">
         <img
           className="planet-image"
