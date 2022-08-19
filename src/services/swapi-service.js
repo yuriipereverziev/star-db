@@ -1,5 +1,5 @@
 export default class SwapiService {
-  _apiBase = 'https://swapi.co/api';
+  _apiBase = 'https://swapi.dev/api';
 
   async getResource(url) {
     // eslint-disable-next-line no-underscore-dangle
